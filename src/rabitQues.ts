@@ -16,7 +16,7 @@ async function receiveNotification() {
                 try {
                     const { id, marca } = JSON.parse(msg.content.toString());
 
-                    const data= axios.post('https://api2-6fjp.onrender.com/vehiculo',{id,marca})
+                    const data= axios.post('https://api2-34ql.onrender.com/vehiculo',{id,marca})
                     console.log(" [x] Received ID:", id);
                     console.log(" [x] Received Marca:", marca);
                 } catch (error) {
